@@ -1,0 +1,58 @@
+button {
+    background-color: skyblue;
+    color: white;
+
+
+}
+button:hover{
+background-color: black;
+color: white;
+}
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+.p1{
+    color: green;
+}
+#p2{
+    color: purple;
+}
+button{
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 25px;
+}
+#back{
+background-color: yellow;
+display: flex;
+justify-content: start;
+justify-content: center;
+justify-content: space-around;
+}
+#logo{
+    height: 50px;
+    width: 150px;
+    justify-content: start;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+}
+#videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
